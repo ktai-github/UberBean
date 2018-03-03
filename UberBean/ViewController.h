@@ -10,9 +10,9 @@
 @import MapKit;
 @import CoreLocation;
 
-@interface ViewController : UIViewController <CLLocationManagerDelegate>
+@interface ViewController : UIViewController 
 
-@property (nonatomic) CLLocationManager *cLLocationManager;
+
 
 @end
 
