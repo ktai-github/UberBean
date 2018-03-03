@@ -6,13 +6,15 @@
 //  Copyright © 2018 KevinT. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-@import MapKit;
+#import "ViewController.h"
 @import CoreLocation;
+@import MapKit;
+@import UIKit;
 
-@interface ViewController : UIViewController 
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 
-
+@property (nonatomic, strong) CLLocationManager *cLLocationManager;
+@property (nonatomic) MKMapView *mapView;
 
 @end
 
