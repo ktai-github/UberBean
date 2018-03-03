@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () 
 
 @end
 
@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+  
+  MKMapView *mapView = [[MKMapView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+  mapView.backgroundColor = [UIColor blueColor];
+  [self.view addSubview:mapView];
+  
+  self.cLLocationManager = [[CLLocationManager alloc] init];
+  [self.cLLocationManager requestWhenInUseAuthorization];
+  self.cLLocationManager.delegate = self;
+  
+  mapView.showsUserLocation = TRUE;
 }
 
 
