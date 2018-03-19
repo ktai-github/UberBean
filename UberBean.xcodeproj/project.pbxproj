@@ -13,6 +13,8 @@
 		2C7A7FC3204A0AB00054D087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A7FC2204A0AB00054D087 /* Assets.xcassets */; };
 		2C7A7FC6204A0AB00054D087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A7FC4204A0AB00054D087 /* LaunchScreen.storyboard */; };
 		2C7A7FC9204A0AB00054D087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A7FC8204A0AB00054D087 /* main.m */; };
+		2C7A801E204D01CA0054D087 /* Cafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A801D204D01CA0054D087 /* Cafe.m */; };
+		2CB3D5B6205F3A11009A1924 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3D5B5205F3A11009A1924 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2C7A7FC5204A0AB00054D087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C7A7FC7204A0AB00054D087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7A7FC8204A0AB00054D087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C7A801C204D01CA0054D087 /* Cafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cafe.h; sourceTree = "<group>"; };
+		2C7A801D204D01CA0054D087 /* Cafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cafe.m; sourceTree = "<group>"; };
+		2CB3D5B4205F3A11009A1924 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2CB3D5B5205F3A11009A1924 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				2C7A7FB9204A0AB00054D087 /* AppDelegate.h */,
 				2C7A7FBA204A0AB00054D087 /* AppDelegate.m */,
+				2C7A801C204D01CA0054D087 /* Cafe.h */,
+				2C7A801D204D01CA0054D087 /* Cafe.m */,
 				2C7A7FBC204A0AB00054D087 /* ViewController.h */,
 				2C7A7FBD204A0AB00054D087 /* ViewController.m */,
+				2CB3D5B4205F3A11009A1924 /* MapViewController.h */,
+				2CB3D5B5205F3A11009A1924 /* MapViewController.m */,
 				2C7A7FBF204A0AB00054D087 /* Main.storyboard */,
 				2C7A7FC2204A0AB00054D087 /* Assets.xcassets */,
 				2C7A7FC4204A0AB00054D087 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7A801E204D01CA0054D087 /* Cafe.m in Sources */,
 				2C7A7FBE204A0AB00054D087 /* ViewController.m in Sources */,
+				2CB3D5B6205F3A11009A1924 /* MapViewController.m in Sources */,
 				2C7A7FC9204A0AB00054D087 /* main.m in Sources */,
 				2C7A7FBB204A0AB00054D087 /* AppDelegate.m in Sources */,
 			);

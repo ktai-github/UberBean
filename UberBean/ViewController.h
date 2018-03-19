@@ -11,10 +11,8 @@
 @import MapKit;
 @import UIKit;
 
-@interface ViewController : UIViewController <CLLocationManagerDelegate>
+@interface ViewController : UIViewController 
 
-@property (nonatomic, strong) CLLocationManager *cLLocationManager;
-@property (nonatomic) MKMapView *mapView;
 
 @end
 
